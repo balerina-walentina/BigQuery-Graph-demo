@@ -15,7 +15,7 @@ It simulates the manufacturing production process of `final_products` including:
   - `product_to_product_used`
 
 
-![Manufacturing schema](BigQuery Graph demo.jpg)
+![Manufacturing schema](database_schema.jpg)
 
 ---
 
