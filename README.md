@@ -28,7 +28,7 @@ Machine configuration data is not used for this investigation.
 ## How to use it
 1. Prerequisite is to get BigQuery Graph enabled on the project.
 2. Codes are operating on SCHEMA `project_ID`.`demo_dataset`, so make sure to replace those with own values, before running the codes.
-3. Run the `1. Data DDL.sql` to create schema and tables.
-4. Run the `2.Load data.sql` to populate schema with precooked data.
-5. Run the `3. Graph definition.sql` to populate schema with precooked data.
-6. In Colab Enterprise open the `BigQuery_Graph_demo` notebook and run the code cells to play with the Graph.
+3. Run the [1. Data DDL.sql](1.%20Data%20DDL.sql) to create schema and tables.
+4. Run the [2. Load data.sql](2.%20Load%20data.sql) to populate schema with precooked data.
+5. Run the [3. Graph definition.sql](3.%20Graph%20definition.sql) to populate schema with precooked data.
+6. In Colab Enterprise open the [BigQuery_Graph_demo](BigQuery_Graph_demo.ipynb) notebook and run the code cells to play with the Graph.
