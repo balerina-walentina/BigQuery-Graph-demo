@@ -15,7 +15,7 @@ It simulates the manufacturing production process of `final_products` including:
   - `product_to_product_used`
 
 
-![Manufacturing schema](database_schema.jpg)
+![Manufacturing schema](images/database_schema.jpg)
 
 ---
 
@@ -32,3 +32,15 @@ Machine configuration data is not used for this investigation.
 4. Run the [2. Load data.sql](2.%20Load%20data.sql) to populate schema with precooked data.
 5. Run the [3. Graph definition.sql](3.%20Graph%20definition.sql) to populate schema with precooked data.
 6. In Colab Enterprise open the [BigQuery_Graph_demo](BigQuery_Graph_demo.ipynb) notebook and run the code cells to play with the Graph.
+
+
+## Results visualization
+
+### Final graph view
+![Manufacturing schema](images/BigQueryGraph_screen1.png)
+
+### Final graph view with edges highlighted
+![Manufacturing schema](images/BigQueryGraph_screen2.png)
+
+### Final graph view with node details
+![Manufacturing schema](images/BigQueryGraph_screen3.png)
